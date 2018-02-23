@@ -1,0 +1,13 @@
+{
+  "name": "RedmineTrunkUpdateTrigger",
+  "description": "Hit trigger when trunk of redmine is updated",
+  "region": "ap-northeast-1",
+  "handler": "trigger.lambda_handler",
+  "role": "arn:aws:iam::XXXXXXXXXXXX:role/XXXXXXXXXX",
+  "timeout": 300,
+  "memory": 128,
+  "variables":
+    {
+      "triggerToken":"XXXXXXXX"
+    }
+}
